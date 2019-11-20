@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+      <title>My Flask App Page</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for("static",filename="css/home.css") }}">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Love+Ya+Like+A+Sister|Caveat" rel="stylesheet">
+
+  </head>
+
+  <body>
+     {% if name %}
+     <p>Hello {{name}} </p>
+     {% else %}
+      <p>Hello anonymous person </p>
+     {% endif %}
+  </body>
+  <body>
+    <div class="topspace">
+      <ul>
+        <li id="home"> <a href="hello.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contactus.html">contactus</a></li>
+    </ul>
+    </div>
+    <p>Mineralogy</p>
+
+  </body>

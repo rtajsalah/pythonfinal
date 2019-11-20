@@ -1,0 +1,69 @@
+body{
+  background: ivory;
+  background-size: cover;
+}
+
+ul{
+text-align: center;
+  background: black;
+  color: white;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+.topspace{
+  padding-top: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+
+img{
+  border-radius: 50%;
+}
+
+#about{
+  text-decoration: underline white;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-family: caveat;
+  font-size: 100px;
+}
+
+#writing{
+  Margin: 70px 150px;
+  min-width: 500px;
+}
+
+p{
+  text-align: justify;
+  font-family: caveat;
+  font-size: 28px;
+  color: black;
+}
+
+.aboutpics{
+  border-radius: 10%;
+}
+
+#quartz{
+  height: 250px;
+  float: left;
+  margin-right: 50px;
+}
+#diamond{
+  float:right;
+  height:180px;
+  margin-left: 50px;
+}

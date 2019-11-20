@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+
+  <title>Mineralogy</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static",filename="css/contact.css") }}">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Love+Ya+Like+A+Sister|Caveat" rel="stylesheet">
+
+</head>
+<body>
+  <div class="topspace">
+    <ul>
+      <li> <a href="hello.html">Home</a></li>
+        <li id="about"><a href="/about.html">About</a></li>
+        <li id="contactus"><a href="/contactus.html">Contactus</a></li>
+   </ul>
+  </div>
+
+  <div id="content">
+    <img src="/static/images/minerals.jpg" class="sandwichpics" id="sandwich1">
+    <img src="/static/images/purple.jpg" class="sandwichpics" id="sandwich2">
+    <p id="greeting"><strong>Contact us!</strong></p>
+    <p id="First">Get in touch for more information about minerals:</p>
+
+    <div class="container">
+      <form action="mailto:Mineralogy_Official.DR@gmail.com " method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Message:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+
+    <div id="FacebookInsta">
+      <p> Follow Mineralogy_Official on Facebook or Instagram!</p>
+      <div id="media">
+        <a href="https://www.facebook.com/mineralogyofficial/" target="_blank">
+        <img src="/static/images/facebook.png" class="contactpics" id="facebook">
+         </a>
+        <a href="https://www.instagram.com/mineralogyofficial/?hl=en" target="_blank">
+        <img src="/static/images/instagram.jpg" class="contactpics" id="instagram">
+        </a>
+    </div>
+  </div>
+</div>
+
+
+</body></html>

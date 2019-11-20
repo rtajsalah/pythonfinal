@@ -1,0 +1,49 @@
+body{
+  background: url("Second.jpg");
+  background-size: cover;
+}
+
+ul{
+text-align: center;
+  background: black;
+  color: white;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+.topspace{
+  padding-top: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+#home{
+  text-decoration: underline;
+}
+
+img{
+  border-radius: 50%;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-family: caveat;
+  font-size: 100px;
+  background: rgba(254, 127, 112, 0.7);
+  width: 1000px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  padding-top: 25px;
+  border-radius: 95px;
+}

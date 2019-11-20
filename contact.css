@@ -1,0 +1,117 @@
+body{
+  background: ivory;
+  background-size: cover;
+}
+
+ul{
+text-align: center;
+  background: black;
+  color: white;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+.topspace{
+  padding-top: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+#contactus{
+  text-decoration: underline;
+}
+
+img{
+  border-radius: 50%;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-family: caveat;
+  font-size: 200px;
+}
+
+
+#content{
+  Margin: 70px 150px;
+  min-width: 500px;
+}
+
+p{
+  font-family: caveat;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:  caveat;
+    font-size: 28px;
+    color: black;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a4d6e0;
+}
+
+.container {
+    margin:auto;
+    border-radius: 5px;
+    background-color: #69ACCC;
+    padding: 20px;
+    font-family: caveat;
+    color: white;
+    font-size: 28px;
+    margin-top: 150px;
+}
+
+.contactpics{
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 100px;
+}
+
+.sandwichpics{
+  height: 200px;
+  width: 200px;
+}
+
+#sandwich1{
+  float: left;
+}
+
+#sandwich2{
+  float: right;
+}
+
+#media{
+  margin: 0 auto;
+    width:300px;
+}
